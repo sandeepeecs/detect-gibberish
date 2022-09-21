@@ -1,6 +1,6 @@
-from keyboard import Keyboard
+from .keyboard import Keyboard
 import math
-class Gibirish:
+class Gibberish:
 
     def __init__(self) -> None:
         self.keyboard = Keyboard().get_keyboard()
