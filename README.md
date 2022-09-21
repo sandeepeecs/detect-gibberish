@@ -1,10 +1,8 @@
-python-package-boilerplate
+Detect Gibberish Package
 ==========================
 
-[![Build Status](https://travis-ci.org/mtchavez/python-package-boilerplate.png?branch=master)](https://travis-ci.org/mtchavez/python-package-boilerplate)
-[![Requires.io](https://requires.io/github/mtchavez/python-package-boilerplate/requirements.svg?branch=master)](https://requires.io/github/mtchavez/python-package-boilerplate/requirements?branch=master)
 
-Boilerplate for a Python Package
+
 
 ## Package
 
@@ -12,9 +10,10 @@ Basic structure of package is
 
 ```
 ├── README.md
-├── packagename
+├── detectgibberish
 │   ├── __init__.py
-│   ├── packagename.py
+│   ├── gibberish.py
+│   └── keyboard.py
 │   └── version.py
 ├── pytest.ini
 ├── requirements.txt
@@ -53,3 +52,5 @@ To see an html output of coverage open ```htmlcov/index.html``` after running th
 
 There is a ```.travis.yml``` file that is set up to run your tests for python 2.7
 and python 3.2, should you choose to use it.
+
+
